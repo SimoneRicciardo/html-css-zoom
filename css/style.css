@@ -25,6 +25,11 @@ main{
     height: 80vh;
 }
 
+.container-class{
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
 .container-user{
     float: left;
     position: relative;
@@ -43,5 +48,16 @@ main{
 
 footer{
     height: 10vh;
+    width: 100%;
     background-color: rgb(34, 34, 34);
 }
+
+.big{
+    font-size: 40px;
+}
+
+.small{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
