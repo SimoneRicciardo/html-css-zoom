@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-button{
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+}
+
+.bottone{
+    height: 20px;
+    margin: 3px;
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
+
+/*inizio main*/
+
+main{
+    background-color: black;
+    height: 80vh;
+}
+
+.container-user{
+    float: left;
+    position: relative;
+}
+
+.name-user{
+    background-color: rgba(100, 113, 125, 0.7);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}    
+
+/*fine main*/
+
+/*inizio footer*/
+
+footer{
+    height: 10vh;
+    background-color: rgb(34, 34, 34);
+}
