@@ -12,10 +12,12 @@
 }
 
 .bottone{
-    height: 20px;
+    height: 25px;
     margin: 3px;
     background-color: rgb(74, 74, 74);
     color: white;
+    padding: 0px 3px;
+    border-radius: 10px;
 }
 
 /*inizio main*/
@@ -33,6 +35,7 @@ main{
 .container-user{
     float: left;
     position: relative;
+    margin: 5px;
 }
 
 .name-user{
@@ -40,6 +43,7 @@ main{
     position: absolute;
     bottom: 5px;
     left: 0;
+    color: white;
 }    
 
 /*fine main*/
@@ -47,9 +51,23 @@ main{
 /*inizio footer*/
 
 footer{
+    background-color: rgb(34, 34, 34);
+}
+
+.command{
+    position: relative;
+}
+
+.container-command{
     height: 10vh;
     width: 100%;
-    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i, p {
+    color: white;
 }
 
 .big{
@@ -61,3 +79,8 @@ footer{
     margin-left: 5px;
 }
 
+.close-meeting{
+    height: 100%;
+    background-color: rgb(74, 74, 74);
+    color: red;
+}
